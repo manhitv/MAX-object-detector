@@ -2,7 +2,7 @@
 
 This repository contains code to instantiate and deploy an object detection model as a web service in a Docker container. The input to the model is an image, and the output is a list of estimated class probabilities for the objects detected in the image. This is the first time I work with a powerful thing call *API*.
 
-The original version is based on the [SSD Mobilenet V1 object detection model for TensorFlow](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md), but I customized to use [my car detection model](links).
+The original version is based on the [SSD Mobilenet V1 object detection model for TensorFlow](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md), but I customized to use [my car detection model](https://github.com/manhitv/Object-Detection-Tensorflow).
 
 You could follow instructions from [here](https://github.com/IBM/MAX-Object-Detector) to run the code locally or deploy the model as a web service.
 
