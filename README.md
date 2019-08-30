@@ -1,8 +1,12 @@
 # IBM Developer Model Asset Exchange: Object Detector
 
-This repository contains code to instantiate and deploy an object detection model as a web service. The input to the model is an image, and the output is a list of estimated class probabilities for the objects detected in the image.
+This repository contains code to instantiate and deploy an object detection model as a web service in a Docker container. The input to the model is an image, and the output is a list of estimated class probabilities for the objects detected in the image. This is the first time I work with a powerful thing call *API*.
 
-The origin model is based on the [SSD Mobilenet V1 object detection model for TensorFlow](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) but I changed something to use my customized models.
+The original version is based on the [SSD Mobilenet V1 object detection model for TensorFlow](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md), but I customized to use [my car detection model](links).
+
+You could follow instructions from [here](https://github.com/IBM/MAX-Object-Detector) to run the code locally or deploy the model as a web service.
+
+If you want to use your model, just change properly two files: **config.py** and **Dockerfile** as your trained model/data. Note that you must create public links for your trained model/data in Dockerfile.
 
 # Object Detector Web App
 
